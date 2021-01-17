@@ -1,4 +1,4 @@
-<!doctype html>
+<!Doctype html>
 <html lang="pt-br">
 
 <head>
@@ -37,11 +37,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item"><a class="nav-link" href="#quemsomos">Quem Somos</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.html#quemsomos">Quem Somos</a></li>
 							<li class="nav-item"><a class="nav-link" href="index.html">Atividades</a></li>
 							<li class="nav-item"><a class="nav-link" href="atividades.html">Baralhos</a></li>
 							<li class="nav-item"><a class="nav-link" href="#formcontato">Contato</a></li>
-							<li id="imglog" class="nav-item">
+							<li class="nav-item">
 								<button id="btn_form"><img id="userconta" src="img/elements/user.png" width="45em"></button>
 									<form id="my_form">
 									  	<label id="loginn" for="email">E-mail</label>
@@ -66,98 +66,47 @@
 	<!--================ End Header Menu Area =================-->
 
 	<!--================ Start Home Banner Area =================-->
-	<section class="home_banner_area">
-		<div class="container">
-				<div class="row">
-						<div class="banner_content">
-							<div id="informacoes">
-								<div id="boxcomecar">
-								<h2 id="aprendalibras">
-									Aprenda LIBRAS <br>
-									de forma online <br>
-									e gratuita
-								</h2>
-										<button type="submit" id="comecar" class="btn search_course_btn">Começar</button>
-								</div>
-								<div id="boxlogin">
-								<h2 id="nossotime">
-									Já faz parte <br>
-									da nossa <br>
-									plataforma?
-								</h2>
-										<a href="registro.html"><button type="submit" id="logincomecar" class="btn search_course_btn">Cadastre-se</button></a>
-								</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		
-	</section>
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start Feature Area =================-->
-	<section class="feature_area">
-		<div class="container">
-			<div class="row justify-content-end" id="quemsomos">
-			</div>
+<main id="retangulo_img">
+	<section class="container">
+		<!-- ALTERAÇÕES: "w-50 mx-auto" -->
+		<div id="registrotolib" class="row py-3 w-75 mx-auto registrosection">
+			<label id="título" class="col-12 text-center pb-3" for="registro_retangulo">Cadastro</label>
+			<form id="registro_retangulo" class="d-flex justify-content-center flex-column col-12">
+				<div class="form-row justify-content-center">
+	    			<div class="form-group col-md-4 mr-5">
+	      				<label id="useremail" class="formregistro" for="inputUsername">Usuário</label>
+	      				<input type="text" class="form-control arearevisao" id="inputUsername">
+	    			</div>
+
+	   		 		<div class="form-group col-md-4">
+	      				<label class="formregistro" for="inputEmail4">Email</label>
+	      				<input type="email" class="form-control arearevisao" id="inputEmail4">
+	    			</div>
+	  			</div>
+	  			<div class="form-row justify-content-center">
+	  				<div class="form-group col-md-4 mr-5" id="abc">
+	  					<label class="formregistro" for="psw">Senha:</label>
+	    					<input type="password" placeholder="" name="psw" id="psw" class="form-control arearevisao" required>
+	    			</div>
+	    			<div class="form-group col-md-4">
+	    				<label class="formregistro" for="psw-repeat">Confirme a senha:</label>
+	   					<input type="password" placeholder="" name="psw-repeat" id="psw-repeat" class="form-control arearevisao" required>
+	   				</div>
+	  			</div>
+	  			<div class="form-row justify-content-end">
+	  				<button type="submit" id="registre" class="btn btn-light border border-dark mr-5">Registre-se</button>
+	  			</div>
+			</form>
 		</div>
 	</section>
-	<!--================ End Feature Area =================-->
-	<!--================ Start Fact Area =================-->
-	<div class="fact_area overlay">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-6">
-					<div class="main_title">
-						<h2>QUEM SOMOS</h2>
-						<p>Uma equipe onde acessibilidade é a palavra chave. Com nosso auxílio você pode aprender LIBRAS de forma dinâmica, fácil e gratuita.</p>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<!-- single features -->
-				<div class="col-lg-4 col-md-6">
-					<div class="single_fact">
-						<div class="f_icon">
-							<img src="img/f-icons/icon1.png" alt="">
-						</div>
-						<h4>Acessibilidade</h4>
-						<p>O Dia Nacional da LIBRAS foi instituído como alerta para as grandes dificuldades em acessibilidade que esses cidadãos enfrentam, da socialização ao mercado de trabalho.</p>
-					</div>
-				</div>
-				<!-- single features -->
-				<div class="col-lg-4 col-md-6">
-					<div class="single_fact">
-						<div class="f_icon">
-							<img src="img/f-icons/icon2.png" alt="">
-						</div>
-						<h4>Números</h4>
-						<p>Dados do Censo de 2010 do IBGE indicam que cerca de 2,2 milhões de brasileiros têm deficiência auditiva em situação severa; e, entre estes, 344,2 mil são surdos.</p>
-					</div>
-				</div>
-				<!-- single features -->
-				<div class="col-lg-4 col-md-6">
-					<div class="single_fact">
-						<div class="f_icon">
-							<img src="img/f-icons/icon3.png" alt="">
-						</div>
-						<h4>Importância</h4>
-						<p>É um meio de comunicação e interação social com uma estrutura própria gramatical e semântica, que abre as portas para oportunidades pessoais e profissionais.</p>
-					</div>
-				</div>
-				<!-- single features -->
-				
-				<!-- single features -->
-				
-				<!-- single features -->
-				
-			</div>
-		</div>
-	</div>
+</main>
 	<!--================ End Fact Area =================-->
 
 	<!--================ Start footer Area  =================-->
-<footer id="newfooter">
+<footer id="newfooter" class="">
 	<div class="d-flex justify-content-between">
 		<div class="">
 			<h4 id="footerh4">Contato:</h4>
@@ -182,7 +131,7 @@
 	                <div class="form-row">
 	                	<div class="form-group">
 		                	<label id="formfooter2" for="email">E-mail</label>	                            
-		                    <input type="text" name="email" id="email" size="35" class="txtarea form-control">
+		                    <input type="email" name="email" id="email" size="35" class="txtarea form-control">
 		                </div>
 	                </div>
 	                <div class="form-row">
