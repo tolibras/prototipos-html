@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/png">
+	<title>ToLIBRAS</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="vendors/linericon/style.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
+	<link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
+	<link rel="stylesheet" href="vendors/animate-css/animate.css">
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<!--================ Start Header Menu Area =================-->
+	<header class="header_area">
+		<div class="main_menu">
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<a class="navbar-brand logo_h" href="index.html"><img id="logo" src="img/logo.png" alt="" cap></a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+						<ul class="nav navbar-nav menu_nav ml-auto">
+							<li class="nav-item"><a class="nav-link" href="#quemsomos">Quem Somos</a></li>
+							<li class="nav-item"><a class="nav-link" href="index.html">Atividades</a></li>
+							<li class="nav-item"><a class="nav-link" href="atividades.html">Baralhos</a></li>
+							<li class="nav-item"><a class="nav-link" href="#formcontato">Contato</a></li>
+							<li class="nav-item">
+								<button id="btn_form"><img id="userconta" src="img/elements/user.png" width="45em"></button>
+									<form id="my_form">
+									  	<label id="loginn" for="email">E-mail</label>
+            							<input type="text" class="loginn" id="email" name="email" style="width: 10em" value="">
+            							<br>
+            							<label id="loginn" for="senha_cad">Senha</label>
+          								  <input id="senha_cad" class="loginn" name="senha_cad" style="width: 7em" required="required" type="password" placeholder="ex. 1234"/>
+          								 <br>
+          								 <a id="adicional" href="index.html">Esqueceu sua senha?</a>
+          								 <br>
+          								 <a id="adicional" href="registro.html">Cadastre-se</a>
+          								 <br>
+									  <input id="enviarlogin" type="submit">
+									</form>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================ End Header Menu Area =================-->
+
+	<!--================ Start Home Banner Area =================-->
+	<!--================ End Home Banner Area =================-->
+	<section class="MainDesc d-flex container py-4">
+		<aside class="nav col-lg-3 bg-light border px-2 rounded text-center d-flex flex-column">
+            <h4 class="py-4">@GrupoToLIBRAS</h4>
+            <ul class="navbar-nav w-100 border-top">
+                  <li class="nav-item">
+                    <a class="nav-link bg-secondary text-white rounded text-center" href="#">Informações do grupo</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link bg-primary text-white rounded text-center mt-2" href="#">Lista de Membros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bg-secondary text-white rounded text-center mt-2" href="#">Lista de Administradores</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link bg-info text-white rounded text-center mt-5" href="#"><- Voltar</a>
+                  </li>
+            </ul>
+        </aside>
+        <div class="d-flex flex-column col-lg-9 px-5">
+	        <table class="table table-bordered">
+	        	<thead>
+	        		<tr>
+	        			<th colspan="3" scope="col" class="text-center"><h4>Membros</h4></th>
+	        		</tr>
+	        		<tr>
+		        		<th>Id</th>
+		        		<th>Nome</th>
+		        		<td>Remover</td>
+	        		</tr>
+	        	</thead>
+	        	<tbody>
+	        		<tr>
+	        			<td>1</td>
+	        			<td>Rodrigues Oliveira</td>
+	        			<td><button class="btn botaodelet" type="button">Remover</button></td>
+	        		</tr>
+	        		<tr>
+	        			<td>2</td>
+	        			<td>Alessandro Leao</td>
+	        			<td><button class="btn botaodelet" type="button">Remover</button></td>
+	        		</tr>
+	        		<tr>
+	        			<td>3</td>
+	        			<td>Garibaldo Josoares</td>
+	        			<td><button class="btn botaodelet" type="button">Remover</button></td>
+	        		</tr>
+	        	</tbody>
+	        </table>
+	        <button class="btn botaouser"><strong>Adicionar Membro</strong></button>
+        </div>
+		<!-- <div class="Adicionarmembro d-flex col-lg-9 px-5">
+			<ol class="adicionar_lista flex-column">
+				<li class="adicionarmembro_a">
+					<a class="text-dark" href=""><p>Adicionar Membro</p></a>
+				</li>
+				<li class="d-flex mt-4 mb-4 justify-content-between">
+						<div><p>1-</p></div>
+						<div class="licolumndesc1 text-center"><p>Rodrigues Oliveira</p></div>
+						<a href=""><figure>
+							<img class="menos9_img ml-4" src="img/menos9.png">
+						</figure></a>
+				</li>
+				<li class="d-flex mt-4 mb-4 justify-content-between">
+						<div><p>2-</p></div>
+						<div class="licolumndesc1 text-center"><p>Alessandro Leao</p></div>
+						<a href=""><figure>
+							<img class="menos9_img ml-4" src="img/menos9.png">
+						</figure></a>
+				</li>
+				<li class="d-flex mt-4 mb-4 justify-content-between">
+						<div><p>3-</p></div>
+						<div class="licolumndesc1 text-center"><p>Garibaldo Josoares</p></div>
+						<a href=""><figure>
+							<img class="menos9_img ml-4" src="img/menos9.png">
+						</figure></a>
+				</li>
+			</ol>
+		</div> -->
+	</section>
+	<!--================ Start Feature Area =================-->
+		<!--================ End Fact Area =================-->
+
+	<!--================ Start footer Area  =================-->
+<footer id="newfooter" class="">
+	<div class="d-flex justify-content-between">
+		<div class="">
+			<h4 id="footerh4">Contato:</h4>
+			<nav id="menuu">
+				<ul id="redesocias" >
+			        <li><a href="#"><img src="img/elements/email.png" id="redes"></a></li>
+			        <li><a href="#"><img src="img/elements/face.png" id="redes"></a></li>
+			    	<li><a href="#"><img src="img/elements/insta.png" id="redes"></a></li>
+			    </ul>
+		    </nav>
+	    </div>
+		<section id="formcontato" class="formulariosec">                   
+	        <article class="artigo">
+	            <form id="formcontato" class="formulario" method="POST" action="processacont.php">
+	                <input type="hidden" name="operacao" value="incluir">
+	                <div class="form-row">
+		                <div class="form-group h-50">
+		                	<label id="formfooter" for="nome">Nome</label>
+		                    <input type="text" id="nome" name="nome" size="35" class="txtarea form-control">
+		                </div>
+	                </div>
+	                <div class="form-row">
+	                	<div class="form-group">
+		                	<label id="formfooter2" for="email">E-mail</label>	                            
+		                    <input type="text" name="email" id="email" size="35" class="txtarea form-control">
+		                </div>
+	                </div>
+	                <div class="form-row">
+	                	<div class="form-group">
+		                	<label id="formfooter3" for="textarea">Mensagem</label>
+		                    <textarea name="solicitacao" id="textarea" class="form-control" cols="36" rows="5"></textarea>
+		                </div>
+	                </div>
+	                <div class="form-row justify-content-end">
+	                	<input id="enviarform" type="submit" class="btn" name="enviar" value="Enviar">
+	                </div>
+	            </form>
+	        </article>                   
+	    </section>
+	    <div class="">
+	    	<figure>
+	    		<img id="linefooter" src="img/line.png">
+	    	</figure>
+	    </div>
+	    <div class="d-flex justify-content-center flex-column align-items-center">
+	    	<div class="d-flex align-items-center">
+	    		<figure class="float-left">
+	    			<img id="imgfooter" src="img/imgrodape.png">
+	    		</figure>
+	    		
+				<h5 id="slogan">ToLIBRAS, qualidade e</br> inclusão num lugar só</h5>
+	    	</div>
+			
+			<h5 id="desenv" class="pt-4">Desenvolvido por:  Arthur de Melo, Christian Cauã,</br>  Danilo Fechine, João Victor Saraiva e Lanay Fernandes.</h5>
+		</div>
+	</div>
+                
+</footer>
+	<!--================ End footer Area  =================-->
+
+	<!-- Optional JavaScript -->
+		<script type="text/javascript">
+			var btn = document.getElementById('btn_form');
+			var form = document.getElementById('my_form');
+
+			btn.addEventListener('click', function() {
+			  if(form.style.display != 'block') {
+			    form.style.display = 'block';
+			    return;
+			  }
+			  form.style.display = 'none';
+			});
+	</script>
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/countdown.js"></script>
+	<script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
+	<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+	<script src="js/owl-carousel-thumb.min.js"></script>
+	<script src="js/jquery.ajaxchimp.min.js"></script>
+	<script src="vendors/counter-up/jquery.counterup.js"></script>
+	<script src="js/mail-script.js"></script>
+	<!--gmaps Js-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+	<script src="js/gmaps.min.js"></script>
+	<script src="js/theme.js"></script>
+</body>
+
+</html>
